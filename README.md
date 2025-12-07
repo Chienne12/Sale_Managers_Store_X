@@ -1,1 +1,0 @@
-# Sale_Managers_Store_X
