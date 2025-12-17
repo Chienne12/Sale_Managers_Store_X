@@ -1,81 +1,81 @@
-# Hướng dẫn sử dụng Store X's Sales Management System
+# Store X's Sales Management System - User Guide
 
-## 1. Đăng nhập
-- Nhập **Username**, **Password**, chọn **Role** (Admin, SalePerson, Warehouse) trong danh sách thả xuống.
-- Nhấn **Enter** hoặc nút **Login** để vào hệ thống. Thông tin sai sẽ được báo lỗi và yêu cầu nhập lại.
+## 1. Login
+- Enter **Username** and **Password**, then choose a **Role** (Admin, SalePerson, Warehouse).
+- Press **Enter** or click **Login**. If credentials are wrong, the form will show an error and stay on the login screen.
 
-## 2. Quyền Admin
+## 2. Admin Role
 - **Dashboard**
-  1) Mở tab Dashboard (mặc định).  
-  2) Chọn khoảng ngày **From/To** nếu cần lọc.  
-  3) Xem các thẻ thống kê (Nhân viên, Khách hàng, Doanh thu hôm nay, Đơn mới, Low stock).  
-  4) Biểu đồ tự làm mới theo khoảng ngày đã chọn.
+  1) Open the Dashboard tab (default).  
+  2) Set the **From/To** date range if needed.  
+  3) View cards: Employees, Customers, Today Revenue, New Orders, Low Stock.  
+  4) Charts refresh automatically based on the selected range.
 - **Manage Employees**
-  1) Chọn nhân viên trong bảng (nếu sửa/xóa). Để thêm nhân viên mới, **đảm bảo không có dòng nào được chọn trong bảng**.  
-  2) Nhập **Họ tên**, **Username**, chọn **Role** (Admin/SalePerson/Warehouse), **Authority Level** và **Password**.  
-  3) Nhấn **Add** để thêm mới, **Edit** để cập nhật, **Delete** để đánh dấu nghỉ, **Reactivate** để khôi phục.  
-  4) Dùng **Role filter** để lọc nhanh theo vai trò.  
-  5) Sau thao tác, dữ liệu sẽ tải lại vào bảng.
+  1) Select a row to edit/delete. To add a new employee, make sure no row is selected.  
+  2) Enter **Full name**, **Username**, choose **Role** (Admin/SalePerson/Warehouse), **Authority Level**, and **Password**.  
+  3) Click **Add** to create, **Edit** to update, **Delete** to mark resigned, **Reactivate** to restore.  
+  4) Use the **Role filter** to quickly filter by role.  
+  5) After each action, the grid reloads.
 - **Manage Customers**
-  1) Nhập/tìm kiếm theo từ khóa; dùng bộ lọc trạng thái nếu có.  
-  2) Chọn dòng để sửa hoặc nhấn **Add** để thêm khách mới.  
-  3) Điền thông tin khách và lưu.  
-  4) Với khách bị khóa, chọn và nhấn **Reactivate** để mở lại.
+  1) Search by keyword; use status filters if available.  
+  2) Select a row to edit or click **Add** to create a new customer.  
+  3) Fill customer details and save.  
+  4) For locked customers, select and click **Reactivate** to reopen.
 - **Manage Products**
-  1) Chọn bộ lọc: từ khóa, **Category**, **Supplier**, hoặc nhấn **Low Stock** để xem hàng sắp hết.  
-  2) Chọn sản phẩm để sửa/xóa hoặc nhấn **Add** để thêm mới.  
-  3) Trong tab **Categories** và **Suppliers**, chọn dòng rồi **Add/Update/Delete** tương ứng.  
-  4) Nhấn **Save/Update** để áp dụng; bảng sẽ làm mới.
+  1) Filter by keyword, **Category**, **Supplier**, or click **Low Stock** to see items running low.  
+  2) Select a product to edit/delete or click **Add** to create.  
+  3) In **Categories** and **Suppliers** tabs, select a row then **Add/Update/Delete** as needed.  
+  4) Save/Update to apply changes; the grid refreshes.
 - **Manage Orders**
-  1) Chọn **Status** (All/Pending/Completed/Cancelled), **Employee**, ngày, hoặc nhập **Search Order ID** để lọc.  
-  2) Chọn đơn trong bảng để xem chi tiết; chi tiết hiển thị ở panel bên phải.  
-  3) Nhấn **Add** để tạo đơn mới, **Edit** để chỉnh sửa, **Delete** để hủy, **Print** để in hóa đơn.  
-  4) Thao tác xong, danh sách đơn tự làm mới.
+  1) Choose **Status** (All/Pending/Completed/Cancelled), **Employee**, date, or enter **Search Order ID** to filter.  
+  2) Select an order to view details; line items appear in the right panel.  
+  3) Click **Add** to create, **Edit** to modify, **Delete** to cancel, **Print** to print the invoice.  
+  4) The order list refreshes after actions.
 - **Reports**
-  1) Mở tab Reports.  
-  2) Chọn khoảng thời gian/bộ lọc (nếu có).  
-  3) Xem các biểu đồ/báo cáo tổng hợp.
+  1) Open the Reports tab.  
+  2) Choose time range/filters if available.  
+  3) View summary charts/reports.
 - **Logout**
-  1) Nhấn **Logout** để quay về màn hình đăng nhập.
+  1) Click **Logout** to return to the login screen.
 
-## 3. Quyền Sale (SalePerson)
-- Màn hình chính hiển thị chào mừng kèm doanh số hôm nay và thứ hạng theo ngày.
-- **Tìm sản phẩm**
-  1) Gõ từ khóa vào ô tìm kiếm; có thể chọn **Category** hoặc bật **In stock only**.  
-  2) Nhấn **Add to cart** tại từng sản phẩm (tự giới hạn theo tồn kho).  
-  3) Danh sách sản phẩm tự lọc theo tiêu chí đã chọn.
-- **Quản lý giỏ hàng**
-  1) Xem giỏ ở panel phải.  
-  2) Double-click 1 dòng để giảm số lượng; chọn dòng và nhấn **Remove Item** để xóa; nhấn **Cancel** để xóa toàn bộ giỏ.  
-  3) Tổng tiền hiển thị dưới dạng **TOTAL**.
-- **Chọn khách hàng**
-  1) Chọn **Existing** để lấy khách từ danh sách có sẵn; chọn khách trong combo.  
-  2) Chọn **New Customer** để nhập **Name**, **Phone** (bắt buộc) và **Address** (tùy chọn).  
-  3) ⚠️ Nếu số điện thoại đã tồn tại, hệ thống sẽ **tự động dùng lại khách đã có** thay vì tạo mới; muốn tạo khách khác, hãy nhập số điện thoại chưa tồn tại.
-- **Thanh toán**
-  1) Chọn **Payment method**.  
-  2) Nhấn **Check** để tạo đơn (lưu Order + OrderDetails, trừ tồn kho).  
-  3) Sau thành công, giỏ được làm mới; nhấn **Print** để in hóa đơn nếu cần.
+## 3. SalePerson Role
+- The home screen shows a welcome message, today’s sales, and today’s rank.
+- **Find Products**
+  1) Type a keyword in search; optionally choose **Category** or enable **In stock only**.  
+  2) Click **Add to cart** on products (quantity capped by stock).  
+  3) The list filters automatically according to your criteria.
+- **Cart Management**
+  1) View the cart in the right panel.  
+  2) Double-click a line to reduce its quantity by 1; select a line and click **Remove Item** to delete; click **Cancel** to clear the cart.  
+  3) Total is shown as **TOTAL**.
+- **Customer Selection**
+  1) Choose **Existing** to pick a customer from the dropdown.  
+  2) Choose **New Customer** and enter **Name**, **Phone** (required), and **Address** (optional).  
+  3) If the phone number already exists, the system reuses that customer instead of creating a new one; to create a different customer, use a phone number that does not exist.
+- **Checkout**
+  1) Choose **Payment method**.  
+  2) Click **Check** to create the order (saves Order + OrderDetails, deducts stock).  
+  3) After success, the cart is cleared; click **Print** to print the receipt if needed.
 
-## 4. Quyền Warehouse
+## 4. Warehouse Role
 - **Dashboard**
-  1) Mở Dashboard để xem tổng số mặt hàng, số lượng hàng sắp hết (<10), tổng giá trị tồn kho.  
-  2) Màu cảnh báo đỏ cho hàng sắp hết.
+  1) Open Dashboard to see total items, low-stock count (less than 10 units), and total inventory value.  
+  2) Low-stock count appears in red when present.
 - **Replenishment**
-  1) Trong bảng hàng sắp hết, chọn dòng cần nhập.  
-  2) Nhấn **Import Stock**, nhập số lượng, xác nhận.  
-  3) Hệ thống cộng tồn và cập nhật lại thống kê.
+  1) In the low-stock table, select a row to import.  
+  2) Click **Import Stock**, enter quantity, confirm.  
+  3) Stock increases and stats refresh.
 - **Stock Movements**
-  1) Xem bảng **Recent Stock Movements (From Sales)** để theo dõi các lần xuất kho gần nhất (từ đơn bán hoàn tất).  
-  2) Không cần thao tác lưu; bảng tự tải dữ liệu mới khi mở.
+  1) View **Recent Stock Movements (From Sales)** to track recent exports from completed sales.  
+  2) Data reloads automatically when opened.
 - **Manage Products**
-  1) Sử dụng tương tự phần Admin: lọc, thêm/sửa/xóa sản phẩm; quản lý danh mục/nhà cung cấp tại các tab riêng.  
-  2) Nhấn lưu/cập nhật để áp dụng thay đổi.
+  1) Same usage as Admin: filter, add/edit/delete products; manage categories/suppliers in their tabs.  
+  2) Save/Update to apply changes.
 - **Change Password**
-  1) Nhấn nút 🔐 trong menu.  
-  2) Nhập mật khẩu hiện tại, mật khẩu mới, xác nhận mật khẩu mới.  
-  3) Lưu để cập nhật; đóng hộp thoại khi hoàn tất.
+  1) Click the change-password button in the menu.  
+  2) Enter current password, new password, confirm new password.  
+  3) Save to update; close the dialog when done.
 
-## 5. Lưu ý
-- Tên role cần khớp với danh sách đăng nhập: **Admin**, **SalePerson**, **Warehouse**.
-- Ứng dụng cần kết nối cơ sở dữ liệu đã có sẵn dữ liệu nhân viên, khách hàng, sản phẩm để hoạt động đầy đủ.
+## 5. Notes
+- Role names must match login options: **Admin**, **SalePerson**, **Warehouse**.
+- The application needs a database with existing employees, customers, and products to operate fully.
